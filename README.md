@@ -15,8 +15,7 @@ This is a simple web application that allows users to input text and displays a 
 - JavaScript
 
 ## Customization
-- To change the character limit, update the `maxlength` attribute in the `<textarea>` element within `index.html`.
-- Modify the CSS styles in `style.css` to change the appearance of the application.
+- To change the character limit, update the `maxlength` attribute in the `<textarea>` element within `index.html`
 
 ## License
 This project is open-source and available under the MIT License. Feel free to modify and use it as per your needs.
