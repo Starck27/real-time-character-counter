@@ -36,3 +36,22 @@ textarea {
   border: 0.125rem dashed #ff69b4;
   border-radius: 0.5rem;
 }
+
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.counter-container p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.total-counter {
+  color: #32cd32;
+}
+
+.remaining-counter {
+  color: #ff4500;
+}
