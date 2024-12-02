@@ -5,3 +5,13 @@ const remainingCounterElement = document.getElementById("remaining-counter");
 textareaElement.addEventListener("keyup", () => {
   updateCounter();
 });
+
+updateCounter();
+
+function updateCounter() {
+  const totalChars = textareaElement.value.length;
+  const remainingChars = textareaElement.getAttribute("maxLength") - totalChars;
+
+  totalCounterElement.innerText = totalChars;
+  remainingCounterElement.innerText = remainingChars;
+}
